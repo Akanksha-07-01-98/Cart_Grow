@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Organic Store</title>
+    <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a123fe190f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+   <div class="top-container">
+     <table>
+       <th>
+         WELCOME TO OUR ORGANIC STORE WEBSITE!
+       </th>
+       <th id="log">
+        <button type="button" onclick="login_form()"> 🙋Login</button> 
+       </th >
+    <th id="facebook"><button onclick="face()"><i class="fa fa-facebook-f" style="font-size:24px"></button></i></th>
+    <th id ="twitter"><button onclick="myfunction()"><i class="fa fa-twitter" style="font-size:24px"></button></i></th>
+     </table>
+   </div>
+   <div class="navbar">
+     <div class="dropdown">
+       <button class="dropbtn">HOME</button>
+       <div class="dropdown-content">
+         <a href="#">HOME 1</a>
+         <a href="#">HOME 2</a>
+         <a href="#">HOME 3</a>
+       </div>
+     </div>
+   <a href="#aboutus">ABOUT US</a>
+   <a href="#store">STORE</a>
+   <a href="#features">FEATURES</a>
+   <a href="#news">NEWS</a>
+   <a href="#gallery">GALLERY</a>
+   <a href="#contact">CONTACT</a>
+    <a href="#search">🔎<input type="text" placeholder="Search"></a>
+    <a href="#cart"><button onclick="cart()">🛒</button></a>
+
+ </div>
+
+   <div class="all-post">
+   <h1>All Posts</h1>
+   </div>
+   <div class="vegetable">
+     <img src="vegetable.jpg" alt="vegetable" height="300px" width="500px">
+     <h2>GMOs: Your Right To Know</h2>
+     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<span id="dots">...</span><span id="more">Excepteur sint occaecat cupidatat non proident…
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor sapien ex, nec pellentesque nisl sodales nec. Etiam nec urna nibh. Vivamus a ornare magna. Vivamus cursus, augue id egestas volutpat, metus erat viverra massa, vel dignissim sapien nulla a arcu. Aliquam volutpat, orci at iaculis sollicitudin, tortor ligula convallis lorem, et lobortis dolor nisi ut erat. Nunc viverra velit dignissim faucibus sollicitudin. Duis eget metus convallis, fringilla ipsum ut, dignissim ipsum. Donec sodales feugiat ex, sit amet dictum mauris ultricies vel. Nulla feugiat mollis tellus.
+
+Vivamus pulvinar tortor vitae urna posuere, et dignissim justo finibus. Phasellus risus felis, pulvinar vitae ante dignissim, porta consequat lectus. Mauris sed sodales dui, eget venenatis nulla. Sed ultrices felis in augue dictum tincidunt. Morbi quis aliquam lorem, vitae sollicitudin mi. Nullam rutrum eleifend arcu, sit amet laoreet ante. Mauris at enim sem. Vivamus nec congue risus, id dignissim tortor. Praesent quis sagittis nisi, eget posuere metus.
+
+Phasellus id diam lectus. Pellentesque malesuada fermentum nibh a eleifend. Sed condimentum lectus ut nulla gravida, vitae commodo metus congue. Fusce volutpat enim ut elit tincidunt, ut convallis urna volutpat. Vestibulum eleifend imperdiet molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc sagittis sem erat, non lobortis orci faucibus vitae. Aliquam bibendum arcu metus, in scelerisque justo sagittis in. Sed accumsan hendrerit efficitur. Sed fringilla luctus nulla nec auctor. Phasellus mi eros, scelerisque efficitur est sed, malesuada gravida eros. Sed dapibus laoreet diam, ut vehicula mauris molestie sed. Duis auctor et velit in cursus.
+</span></p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+   </div>
+<hr>
+   <div class="organic">
+     <img src="organic_farming.jpg" alt="organic_farming" height="300px" width="500px">
+     <h2>Why Farm Organically?</h2>
+     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<span id="dot">...</span><span id="mores">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor sapien ex, nec pellentesque nisl sodales nec. Etiam nec urna nibh. Vivamus a ornare magna. Vivamus cursus, augue id egestas volutpat, metus erat viverra massa, vel dignissim sapien nulla a arcu. Aliquam volutpat, orci at iaculis sollicitudin, tortor ligula convallis lorem, et lobortis dolor nisi ut erat. Nunc viverra velit dignissim faucibus sollicitudin. Duis eget metus convallis, fringilla ipsum ut, dignissim ipsum. Donec sodales feugiat ex, sit amet dictum mauris ultricies vel. Nulla feugiat mollis tellus.
+
+Vivamus pulvinar tortor vitae urna posuere, et dignissim justo finibus. Phasellus risus felis, pulvinar vitae ante dignissim, porta consequat lectus. Mauris sed sodales dui, eget venenatis nulla. Sed ultrices felis in augue dictum tincidunt. Morbi quis aliquam lorem, vitae sollicitudin mi. Nullam rutrum eleifend arcu, sit amet laoreet ante. Mauris at enim sem. Vivamus nec congue risus, id dignissim tortor. Praesent quis sagittis nisi, eget posuere metus.
+
+Phasellus id diam lectus. Pellentesque malesuada fermentum nibh a eleifend. Sed condimentum lectus ut nulla gravida, vitae commodo metus congue. Fusce volutpat enim ut elit tincidunt, ut convallis urna volutpat. Vestibulum eleifend imperdiet molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc sagittis sem erat, non lobortis orci faucibus vitae. Aliquam bibendum arcu metus, in scelerisque justo sagittis in. Sed accumsan hendrerit efficitur. Sed fringilla luctus nulla nec auctor. Phasellus mi eros, scelerisque efficitur est sed, malesuada gravida eros. Sed dapibus laoreet diam, ut vehicula mauris molestie sed. Duis auctor et velit in cursus.
+</span></p>
+<button onclick="orgbtn()" id="orgBtn">Read more</button>
+   </div>
+
+
+
+<hr>
+  <div class="bottom-container">
+
+    <p>AxiomThemes © 2020 All Rights Reserved. Terms of Use and Privacy Policy</p>
+    <h2>JOIN TO ORGANIC STORE FARM</h2>
+      <p id="envelope">✉</p>
+      <input type="checkbox" id="check" onclick="checkboxbtn()" >
+  <label for="check"> I agree that my submitted data is being collected and stored.</label>
+  </div>
+  <script type="text/javascript" src="cartgrow.js">
+
+  </script>
+
+  </body>
+</html>
